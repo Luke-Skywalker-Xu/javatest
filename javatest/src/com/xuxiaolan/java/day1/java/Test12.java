@@ -3,6 +3,7 @@ package com.xuxiaolan.java.day1.java;
 import java.util.Scanner;
 
 public class Test12 {
+    //if …… else if ……
     public static void main(String[] args) {
         //BMI
         double BMI ;

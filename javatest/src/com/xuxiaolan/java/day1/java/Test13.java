@@ -2,6 +2,7 @@ package com.xuxiaolan.java.day1.java;
 
 import java.util.Scanner;
 public class Test13 {
+    //迭代计算
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("请输入贷款金额（元）：");
@@ -14,7 +15,7 @@ public class Test13 {
         int ina = sc.nextInt();
         //计算200次，误差精确到小数点后10位
         double rate = Test13.rate(a, x, n, 200, ina);
-        System.out.println(rate*100 + "%");
+        System.out.print("月利率:"+rate*100 + "%");
 
 
     }
