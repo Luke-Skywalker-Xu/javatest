@@ -1,4 +1,4 @@
-package com.xuxiaolan.java.day1;
+package com.xuxiaolan.java.day1.java;
 
 import static java.lang.Math.random;
 

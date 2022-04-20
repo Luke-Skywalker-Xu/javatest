@@ -1,4 +1,4 @@
-package com.xuxiaolan.java.day1;
+package com.xuxiaolan.java.day1.java;
 
 public class Test5 {
     public static void main(String[] args) {
