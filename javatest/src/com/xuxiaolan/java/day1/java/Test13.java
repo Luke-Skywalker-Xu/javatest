@@ -6,14 +6,12 @@ public class Test13 {
     // a是贷款金额，b为每月还款金额，c为贷款期限，cnt为计算次数，ina为精度
     public static double rate(double a, double b, double c, int cnt, int ina){
         double rate = 1, x, jd = 0.1, side = 0.1, i = 1;
-
         do{
             x = a /b - (Math.pow((1+rate), c) - 1) / (Math.pow((1+rate), c) * rate );
             if( x * side > 0){
                 side = -side;
                 jd *= 10;
             }
-
             rate += side / jd;
         }while(i++ <cnt && Math.abs(x) >= 1 / Math.pow(10, ina));
 
