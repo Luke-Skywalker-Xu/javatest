@@ -22,9 +22,9 @@ public class Test5 {
         //获取总小时
         aH = aM / 60;
         //获取当前小时
-        cH=aH % 24;
+        cH = aH % 24;
         //打印在屏幕
-        System.out.println(cH+":"+cM+":"+cS);
+        System.out.println(cH + ":" + cM + ":" + cS);
     }
 }
 

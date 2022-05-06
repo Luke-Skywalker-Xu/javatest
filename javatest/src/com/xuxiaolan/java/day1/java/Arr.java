@@ -14,14 +14,20 @@ public class Arr {
         for (int i = 0; i < nums.length; i++) {
             nums[i]=i+1;
         }
-
-//        System.out.println(Arrays.toString(nums));
-
+        System.out.println(Arrays.toString(nums));
 
 
+//        int []arr=gennerateArray(10, 100);
+//        for (int i = 0; i < arr.length; i++) {
+//            System.out.println(arr[i]);
+//        }
+    }
 
-            }
-
-
-
+//    public static int[]  gennerateArray(int len,int max) {
+//        int[] arr = new int[len];
+//        for (int i = 0; i < arr.length; i++) {
+//            arr[i] = (int) (Math.random() * max);
+//        }
+//        return arr;
+//    }
 }

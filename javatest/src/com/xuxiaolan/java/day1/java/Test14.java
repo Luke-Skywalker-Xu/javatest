@@ -71,7 +71,7 @@ public class Test14 {
         double n=36;
         double A=100000;
 
-        Test14 test14 =new Test14(x,A,n, 7);
+        Test14 test14 =new Test14(x,A,n, 11);//7
 
         double v= test14.countv();
 

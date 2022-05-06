@@ -43,13 +43,13 @@ public class Test8 {
         yearLoan = s3.nextDouble();
         //2、通过公式计算
         //每月还款金额
-        monthlyRepayment = ((loan * percentMonthlyRate )* ((pow((1 + percentMonthlyRate),yearLoan * 12) ) / ((pow((1 + percentMonthlyRate),yearLoan * 12) )- 1)));
+        monthlyRepayment = ((loan * percentMonthlyRate) * ((pow((1 + percentMonthlyRate), yearLoan * 12)) / ((pow((1 + percentMonthlyRate), yearLoan * 12)) - 1)));
         //总还款金额
-        totalRepayment = (yearLoan *12) * monthlyRepayment;
+        totalRepayment = (yearLoan * 12) * monthlyRepayment;
         //3、屏幕打印每月还款金额
         System.out.println("每月还款金额：" + Colors.getFormatLogString((String.format("%.2f", monthlyRepayment)), 31, 0) + " 元");
         //4、屏幕打印总还款金额
-        System.out.println("借贷"+Colors.getFormatLogString((String.format("%.0f", yearLoan)), 31, 0)+"年需要还的金额：" + Colors.getFormatLogString((String.format("%.2f", totalRepayment)), 31, 0) + " 元");
-        }
+        System.out.println("借贷" + Colors.getFormatLogString((String.format("%.0f", yearLoan)), 31, 0) + "年需要还的金额：" + Colors.getFormatLogString((String.format("%.2f", totalRepayment)), 31, 0) + " 元");
+    }
 
 }

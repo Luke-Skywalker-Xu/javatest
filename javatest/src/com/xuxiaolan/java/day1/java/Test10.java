@@ -10,9 +10,10 @@ public class Test10 {
         System.out.print("请输入成绩：");
         //2、对成绩分级
         int cj = s.nextInt();
-        int grade =  (cj / 10);
+        int grade = (cj / 10);
         switch (grade) {
-            case 9:case 10:
+            case 9:
+            case 10:
                 System.out.println("优");
                 break;
             case 8:
@@ -24,7 +25,12 @@ public class Test10 {
             case 6:
                 System.out.println("及格");
                 break;
-            case 5: case 4:case 3:case 2:case 1:case 0:
+            case 5:
+            case 4:
+            case 3:
+            case 2:
+            case 1:
+            case 0:
                 System.out.println("不及格");
                 break;
             default:
