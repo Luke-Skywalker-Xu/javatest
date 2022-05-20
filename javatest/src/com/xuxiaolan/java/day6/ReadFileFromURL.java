@@ -1,9 +1,20 @@
 package com.xuxiaolan.java.day6;
 
-import java.io.IOException;
-import java.net.MalformedURLException;
+import java.io.BufferedReader;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 
 public class ReadFileFromURL {
     public static void main(String[] args) {
@@ -11,7 +22,7 @@ public class ReadFileFromURL {
         String URLString = "https://njkaka.plus";
 
         try {
-            java.net.URL url = new java.net.URL(URLString);
+            URL url = new URL(URLString);
             int count = 0;
             Scanner input = new Scanner(url.openStream());
             while (input.hasNext()) {
