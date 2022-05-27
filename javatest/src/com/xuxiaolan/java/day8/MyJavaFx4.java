@@ -26,6 +26,7 @@ public class MyJavaFx4 extends Application {
         circle.setStroke(Color.BLACK);
         circle.setFill(Color.PINK);
         pane.getChildren().add(circle);
+        pane.setRotate(45);
         Scene scene = new Scene(pane, 600, 300);
         primaryStage.setTitle("圆");
         primaryStage.setScene(scene);
