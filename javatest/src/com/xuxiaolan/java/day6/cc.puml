@@ -1,0 +1,21 @@
+@startuml
+
+interface Eat {
+    + eat():void
+}
+interface Sound {
+    + sound():void
+}
+class Tiger {
+    # Tiger(wight:double)
+}
+
+class Animal{
+    +wight:double
+}
+
+Tiger --|> Animal
+Tiger <|.. Sound
+Tiger <|.. Eat
+
+@enduml

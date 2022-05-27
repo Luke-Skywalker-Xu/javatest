@@ -8,7 +8,6 @@ public class Test14 {
     private double n;
     private int jqd;
 
-
     public Test14(double x, double A, double n, int jqd) {
         //jqd表示精确度，精确到小数点后几位
         this.jqd = jqd;
