@@ -32,6 +32,8 @@ public class MyJavaFx4 extends Application {
         primaryStage.setScene(scene);
         primaryStage.show();
 
+
+
     }
 }
 
