@@ -63,7 +63,6 @@ public class TestXXOO extends Application {
                 if (cells[i][j].getToken() == ' ') {
                     return false;
                 }
-
             }
         }
         return true;
@@ -101,14 +100,14 @@ public class TestXXOO extends Application {
     public class Cell extends Pane {
         private char token = ' ';
 
-        //constructor
+        //构造函数
         public Cell() {
             setStyle(" -fx-border-color: black");
             this.setPrefSize(2000, 2000);
             this.setOnMouseClicked(event -> handleMouseClick());
         }
 
-        //getter and setter
+        //获取和设置
         public char getToken() {
             return token;
         }
